@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+</head>
+
+<body>
+  <header>
+    <h1><strong>CodingGita Feedback Form</strong></h1>
+    <p>We value your feedback. Please fill out this form to help us improve.</p>
+  </header>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Feedback Information</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+      <legend>Feedback Details</legend>
+      <label for="service">Product/Service Selection:</label>
+      <select id="service" name="service" required>
+        <option value="mern">MERN Stack</option>
+        <option value="dsa">DSA</option>
+        <option value="development">Web Development</option>
+      </select>
+      <br>
+      <br>
+      <label for="rating">Rating:</label>
+      <input type="radio" id="1 Star" name="rating" value="1">1 Star
+      <input type="radio" id="2 Stars" name="rating" value="2">2 Stars
+      <input type="radio" id="3 Stars" name="rating" value="3">3 Stars
+      <input type="radio" id="4 Stars" name="rating" value="4">4 Stars
+      <input type="radio" id="5 Stars" name="rating" value="5">5 Stars
+      <br>
+      <br>
+      <label for="feedback">Feedback Type:</label>
+      <input type="checkbox" id="Content Quality" name="feedback" value="bug report">Content Quality
+      <input type="checkbox" id="Teaching Method" name="feedback" value="feature request">Teaching Method
+      <input type="checkbox" id="Support & Guidance" name="feedback" value="general feedback">Support & Guidance
+      <input type="checkbox" id="Overall Experience" name="feedback" value="other">Overall Experience
+      <br>
+      <br>
+      <textarea name="suggestions" id="suggestions">Long text input...</textarea>
+      <br>
+      <br>
+      <label for="satisfaction">Satisfaction Level:</label>
+      <input type="range" id="satisfaction" name="satisfaction" min="1" max="10">
+      <br>
+      <br>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+      <legend>Would you recommend us to a friend?</legend>
+      <input type="radio" id="yes" name="recommend" value="yes">
+      <label for="yes">Yes</label>
+
+      <input type="radio" id="no" name="recommend" value="no">
+      <label for="no">No</label>
+    </fieldset>
+    <br>
+    <br><label for="date">Date of Feedback:</label>
+    <input type="date" id="date" name="date">
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+
+</html>

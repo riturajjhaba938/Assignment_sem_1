@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+</head>
+<body>
+  <header>
+    <h1><strong>CodingGita Student Registration Form</strong></h1>
+     <p>Please fill out the form below to register for the CodingGita MERN Stack Program.</p>
+  </header>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <br>
+      <br>
+      <label for="email">Email:</label>
+     <input type="text" id="email" name="email">
+    <br>
+    <br>
+    <label for="password">Password:</label>
+     <input type="text" id="password" name="password" required>
+    <label for="number">Contact Number:</label>
+     <input type="number" id="number" name="number" required>
+     <br>
+     <br>
+    <label for="gender">Gender:</label>
+    <select name="gender" id="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+    <br>
+    <br>
+    <label for="hobbies">Hobbies:</label>
+     <input type="checkbox" id="hobbies" name="hobbies" value="music">Music
+     <input type="checkbox" id="hobbies" name="hobbies" value="reading">Reading
+     <input type="checkbox" id="hobbies" name="hobbies" value="coding">Coding
+     <input type="checkbox" id="hobbies" name="hobbies" value="sports">Sports
+     <br>
+     <br>
+    <label for="Dob">Date of Birth</label>
+     <input type="date" id="Dob" name="Dob" value="Date of Birth" required>
+      <br>
+      <br>
+    <label for="file">Upload File:</label>
+      <input type="file" id="file" name="file" value="Upload File" required>
+      <br>
+      <br>
+    <label for="course">Select Course:</label>
+      <select name="course" id="course">
+        <option value="mern">MERN Stack</option>
+        <option value="DSA">DSA</option>
+        <option value="development">Web Development</option>
+      </select>
+    <br>
+    <br>
+  <label for="address">Address:</label>
+    <textarea id="address" name="address" rows="4" cols="50" placeholder="Enter your address here..."></textarea>
+    <br>
+    <br>
+  <label for="study">Preferred Study Hours:</label>
+     <input type="range" id="study" name="study" min="1" max="10">
+     <br>
+     <br>
+  <label for="color">Favorite Color:</label>
+    <input type="color" id="color" name="color">
+    <br>
+    <br>
+  <label for="portfolio">Portfolio Link:</label>
+    <input type="url" id="portfolio" name="portfolio" placeholder="Enter your portfolio link here...">
+    <br>
+    <br>
+  <label for="search">Search Interests:</label>
+    <input type="text" id="search" name="search" placeholder="Search your interests...">
+    <br>
+    <br>
+  <label for="hour">Preferred Study Hours:</label>
+  <input type="number" id="hour" name="hour" min="1" max="10">
+  <br>
+  <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
